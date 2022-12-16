@@ -5,15 +5,12 @@ orase_romania = ["Bucuresti", "Braila", "Iasi"]
 orase_romania[1] = "Braila oras de jmecheri"
 cel_mai_misto_oras = orase_romania[1]
 
-print(cel_mai_misto_oras)
+print(len(orase_romania)) #len functions tell how many items are in the list start with 0, 1, 2, 3... etc
 
-maimuta = 4
+fructe = ["mar", "para", "cirese"]
+legume = ["morcov", "cartof", "rosie"]
 
-if maimuta == 3:
-     print("Asa e bine")
-elif maimuta == 4:
-    print("Se ingrasa")
-elif maimuta == 69:
-    print("Coaie moare")
-       
+lista_cumparaturi = [fructe, legume] #this is a nested list, a list with more lists
+
+print(lista_cumparaturi)      
    
